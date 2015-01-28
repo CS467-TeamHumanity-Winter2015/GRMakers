@@ -14,6 +14,7 @@
 		83D66AFD1A79686900B6DE26 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83D66AFC1A79686900B6DE26 /* Images.xcassets */; };
 		83D66B001A79686900B6DE26 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83D66AFE1A79686900B6DE26 /* LaunchScreen.xib */; };
 		83D66B0C1A79686900B6DE26 /* GRMakersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D66B0B1A79686900B6DE26 /* GRMakersTests.m */; };
+		83D66B171A79697400B6DE26 /* EventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D66B161A79697400B6DE26 /* EventsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		83D66B051A79686900B6DE26 /* GRMakersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GRMakersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D66B0A1A79686900B6DE26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83D66B0B1A79686900B6DE26 /* GRMakersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GRMakersTests.m; sourceTree = "<group>"; };
+		83D66B151A79697400B6DE26 /* EventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsViewController.h; sourceTree = "<group>"; };
+		83D66B161A79697400B6DE26 /* EventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				83D66AF61A79686900B6DE26 /* ViewController.h */,
 				83D66AF71A79686900B6DE26 /* ViewController.m */,
 				83D66AF91A79686900B6DE26 /* Main.storyboard */,
+				83D66B151A79697400B6DE26 /* EventsViewController.h */,
+				83D66B161A79697400B6DE26 /* EventsViewController.m */,
 				83D66AFC1A79686900B6DE26 /* Images.xcassets */,
 				83D66AFE1A79686900B6DE26 /* LaunchScreen.xib */,
 				83D66AEF1A79686900B6DE26 /* Supporting Files */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83D66AF81A79686900B6DE26 /* ViewController.m in Sources */,
+				83D66B171A79697400B6DE26 /* EventsViewController.m in Sources */,
 				83D66AF51A79686900B6DE26 /* AppDelegate.m in Sources */,
 				83D66AF21A79686900B6DE26 /* main.m in Sources */,
 			);
